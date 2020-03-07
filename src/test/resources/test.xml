@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<!-- TestNG Documentation: http://testng.org/doc/documentation-main.html -->
+<!-- Change "false" to "tests", "methods", "classes" or "instances" for running in parallel. See more details in the TestNG documentation. -->
+<suite name="LeanFTSuite" parallel="classes" thread-count="3" verbose="3">
+    <test name="LeanFtTest">
+        <classes>
+            <class name="com.cloud.testng.Tests"/>
+            <class name="com.cloud.testng.Tests1"/>
+            <class name="com.cloud.testng.Tests2"/>
+            <class name="com.cloud.testng.Tests2"/>
+            <class name="com.cloud.testng.Tests3"/>
+            <class name="com.cloud.testng.Tests4"/>
+            <class name="com.cloud.testng.Tests5"/>
+            <class name="com.cloud.testng.Tests6"/>
+            <class name="com.cloud.testng.Tests7"/>
+            <class name="com.cloud.testng.Tests8"/>
+            <class name="com.cloud.testng.Tests9"/>
+            <class name="com.cloud.testng.Tests10"/>
+        </classes>
+    </test>
+</suite>
